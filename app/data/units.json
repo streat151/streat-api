@@ -1,0 +1,273 @@
+{
+  "units": [
+    {
+      "id": "B001",
+      "name": "gram",
+      "type": "weight",
+      "conversion_factor": 1
+    },
+    {
+      "id": "B002",
+      "name": "kilogram",
+      "type": "weight",
+      "conversion_factor": 1000
+    },
+    {
+      "id": "B003",
+      "name": "milligram",
+      "type": "weight",
+      "conversion_factor": 0.001
+    },
+    {
+      "id": "B004",
+      "name": "ounce",
+      "type": "weight",
+      "conversion_factor": 28.35
+    },
+    {
+      "id": "B005",
+      "name": "pound",
+      "type": "weight",
+      "conversion_factor": 453.592
+    },
+    {
+      "id": "B017",
+      "name": "microgram",
+      "type": "weight",
+      "conversion_factor": 0.000001
+    },
+    {
+      "id": "B018",
+      "name": "tonne",
+      "type": "weight",
+      "conversion_factor": 1000000
+    },
+    {
+      "id": "B019",
+      "name": "hectogram",
+      "type": "weight",
+      "conversion_factor": 100
+    },
+
+    {
+      "id": "B006",
+      "name": "milliliter",
+      "type": "volume",
+      "conversion_factor": 1
+    },
+    {
+      "id": "B007",
+      "name": "liter",
+      "type": "volume",
+      "conversion_factor": 1000
+    },
+    {
+      "id": "B008",
+      "name": "teaspoon",
+      "type": "volume",
+      "conversion_factor": 5
+    },
+    {
+      "id": "B009",
+      "name": "tablespoon",
+      "type": "volume",
+      "conversion_factor": 15
+    },
+    {
+      "id": "B00A",
+      "name": "cup",
+      "type": "volume",
+      "conversion_factor": 240
+    },
+    {
+      "id": "B00B",
+      "name": "fluid ounce",
+      "type": "volume",
+      "conversion_factor": 29.5735
+    },
+    {
+      "id": "B01A",
+      "name": "cubic decimeter",
+      "type": "volume",
+      "conversion_factor": 1000
+    },
+    {
+      "id": "B01B",
+      "name": "cubic centimeter",
+      "type": "volume",
+      "conversion_factor": 1
+    },
+    {
+      "id": "B01C",
+      "name": "deciliter",
+      "type": "volume",
+      "conversion_factor": 100
+    },
+    {
+      "id": "B01D",
+      "name": "centiliter",
+      "type": "volume",
+      "conversion_factor": 10
+    },
+    {
+      "id": "B01E",
+      "name": "pint",
+      "type": "volume",
+      "conversion_factor": 473.176
+    },
+    {
+      "id": "B01F",
+      "name": "quart",
+      "type": "volume",
+      "conversion_factor": 946.353
+    },
+
+    {
+      "id": "B00C",
+      "name": "centimeter",
+      "type": "length",
+      "conversion_factor": 1
+    },
+    {
+      "id": "B00D",
+      "name": "millimeter",
+      "type": "length",
+      "conversion_factor": 0.1
+    },
+    {
+      "id": "B00E",
+      "name": "inch",
+      "type": "length",
+      "conversion_factor": 2.54
+    },
+    {
+      "id": "B020",
+      "name": "meter",
+      "type": "length",
+      "conversion_factor": 100
+    },
+
+    {
+      "id": "B00F",
+      "name": "minute",
+      "type": "time",
+      "conversion_factor": 1
+    },
+    {
+      "id": "B010",
+      "name": "hour",
+      "type": "time",
+      "conversion_factor": 60
+    },
+
+    {
+      "id": "B011",
+      "name": "Celsius",
+      "type": "temperature",
+      "conversion_formula": "to_fahrenheit = (value * 9/5) + 32"
+    },
+    {
+      "id": "B012",
+      "name": "Fahrenheit",
+      "type": "temperature",
+      "conversion_formula": "to_celsius = (value - 32) * 5/9"
+    },
+
+    {
+      "id": "B013",
+      "name": "piece",
+      "type": "count",
+      "conversion_factor": 1
+    },
+    {
+      "id": "B014",
+      "name": "bag",
+      "type": "count",
+      "conversion_factor": 1
+    },
+    {
+      "id": "B015",
+      "name": "can",
+      "type": "count",
+      "conversion_factor": 1
+    },
+    {
+      "id": "B016",
+      "name": "bottle",
+      "type": "count",
+      "conversion_factor": 1
+    },
+    {
+      "id": "B021",
+      "name": "sheet",
+      "type": "count",
+      "conversion_factor": 1
+    },
+    {
+      "id": "B022",
+      "name": "bucket",
+      "type": "count",
+      "conversion_factor": 1
+    },
+    {
+      "id": "B023",
+      "name": "box",
+      "type": "count",
+      "conversion_factor": 1
+    },
+    {
+      "id": "B024",
+      "name": "scoop",
+      "type": "count",
+      "conversion_factor": 1
+    },
+    {
+      "id": "B025",
+      "name": "measuring_spoon",
+      "type": "count",
+      "conversion_factor": 1
+    },
+    {
+      "id": "B026",
+      "name": "parcel",
+      "type": "count",
+      "conversion_factor": 1
+    },
+    {
+      "id": "B027",
+      "name": "portion",
+      "type": "count",
+      "conversion_factor": 1
+    },
+    {
+      "id": "B028",
+      "name": "sack",
+      "type": "count",
+      "conversion_factor": 1
+    },
+    {
+      "id": "B029",
+      "name": "slice",
+      "type": "count",
+      "conversion_factor": 1
+    },
+    {
+      "id": "B02A",
+      "name": "cake",
+      "type": "count",
+      "conversion_factor": 1
+    },
+    {
+      "id": "B02B",
+      "name": "kilojoule",
+      "type": "energy",
+      "conversion_factor": 1
+    },
+    {
+      "id": "B02C",
+      "name": "kilocalorie",
+      "type": "energy",
+      "conversion_formula": "to_kilojoule = value * 4.184"
+    }
+  ]
+}

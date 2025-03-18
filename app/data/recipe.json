@@ -1,0 +1,132 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Classic Spaghetti Carbonara 2",
+  "author_id": "1A2B3C4",
+  "format_version": {
+    "major": 1,
+    "minor": 3,
+    "compatibility_hash": "A1B2-C3D4"
+  },
+  "recipe_metadata": {
+    "date": "2023-10-10",
+    "category_id": "K002",
+    "claims": ["J006", "J007"],
+    "base_idea_from": "1234567-89ABCD",
+    "effective_working_times": {
+      "prep": { "value": 10, "unit_id": "B8A1" },
+      "cook": { "value": 20, "unit_id": "B8A1" }
+    },
+    "resting_times": [
+      {
+        "value": 15,
+        "unit_id": "B8A1",
+        "resting_definition_id": "R001"
+      },
+      {
+        "value": 5,
+        "unit_id": "B8A1",
+        "resting_definition_id": "R002"
+      }
+    ],
+    "total": { "value": 30, "unit_id": "B8A1" },
+    "equipment": [
+      { "id": "E1F2" },
+      { "id": "F2G3" }
+    ]
+  },
+  "ingredients": [
+    {
+      "type": "raw_material",
+      "ingredient_id": "269D25E",
+      "internal_id": "C001",
+      "quantity": {
+        "value": 400,
+        "unit_id": "B001"
+      }
+    },
+    {
+      "type": "raw_material",
+      "ingredient_id": "0545C6D",
+      "internal_id": "C002",
+      "quantity": {
+        "value": 100,
+        "unit_id": "B001"
+      }
+    },
+    {
+      "type": "raw_material",
+      "ingredient_id": "867F3DC",
+      "internal_id": "C003",
+      "quantity": {
+        "value": 2,
+        "unit_id": "B7B2"
+      }
+    }
+  ],
+  "instructions": {
+    "steps": [
+      {
+        "step_id": "S001",
+        "components": [
+          {
+            "internal_id": "C001", 
+            "quantity": {
+              "value": 400,
+              "unit_id": "B001" 
+            }
+          }
+        ],
+        "ccp_checkpoints": ["M003", "M004"] 
+      },
+      {
+        "step_id": "S002",
+        "components": [
+          {
+            "internal_id": "C002", 
+            "quantity": {
+              "value": 100,
+              "unit_id": "B001" 
+            }
+          },
+          {
+            "internal_id": "C003", 
+            "quantity": {
+              "value": 2,
+              "unit_id": "B7B2" 
+            }
+          }
+        ],
+        "ccp_checkpoints": ["M012"]
+      }
+    ]
+  },
+  "nutrition": {
+    "base_units": ["per_serving", "per_100g"],
+    "values": [
+      {
+        "nutrition_id": "H001",
+        "per_serving": 550,
+        "per_100g": 220,
+        "unit_id": "B02C"
+      },
+      {
+        "nutrition_id": "H00B",
+        "per_serving": 22,
+        "unit_id": "B001"
+      }
+    ]
+  },
+  "serving_info": {
+    "count": 4,
+    "container": {
+      "id": "P0A1"
+    }
+  },
+  "validation": {
+    "digital_signature": {
+      "algorithm": "ED25519",
+      "public_key": "abc123...",
+      "signature": "xyz456..."
+    }
+  }
+}

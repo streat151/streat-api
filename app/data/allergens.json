@@ -1,0 +1,204 @@
+{
+  "allergens": [
+    {
+      "id": "I001",
+      "abbreviation": "CCG",
+      "name": "Cereals containing gluten"
+    },
+    {
+      "id": "I002",
+      "abbreviation": "WHE",
+      "name": "wheat (spelt, khorasan wheat)"
+    },
+    {
+      "id": "I003",
+      "abbreviation": "RYE",
+      "name": "rye"
+    },
+    {
+      "id": "I004",
+      "abbreviation": "BAR",
+      "name": "barley"
+    },
+    {
+      "id": "I005",
+      "abbreviation": "OAT",
+      "name": "oats"
+    },
+    {
+      "id": "I006",
+      "abbreviation": "WOT",
+      "name": "Wheat or triticale"
+    },
+    {
+      "id": "I007",
+      "abbreviation": "TRI",
+      "name": "Triticale"
+    },
+    {
+      "id": "I008",
+      "abbreviation": "CRU",
+      "name": "Crustaceans"
+    },
+    {
+      "id": "I009",
+      "abbreviation": "EGG",
+      "name": "Eggs"
+    },
+    {
+      "id": "I00A",
+      "abbreviation": "FIS",
+      "name": "Fish"
+    },
+    {
+      "id": "I00B",
+      "abbreviation": "PEN",
+      "name": "Peanuts"
+    },
+    {
+      "id": "I00C",
+      "abbreviation": "SOY",
+      "name": "Soybeans"
+    },
+    {
+      "id": "I00D",
+      "abbreviation": "MIL",
+      "name": "Milk (including lactose)"
+    },
+    {
+      "id": "I00E",
+      "abbreviation": "NUT",
+      "name": "Nuts"
+    },
+    {
+      "id": "I00F",
+      "abbreviation": "ALM",
+      "name": "almonds"
+    },
+    {
+      "id": "I010",
+      "abbreviation": "HAZ",
+      "name": "hazelnuts"
+    },
+    {
+      "id": "I011",
+      "abbreviation": "WAL",
+      "name": "walnuts"
+    },
+    {
+      "id": "I012",
+      "abbreviation": "CAS",
+      "name": "cashews"
+    },
+    {
+      "id": "I013",
+      "abbreviation": "PEC",
+      "name": "pecan nuts"
+    },
+    {
+      "id": "I014",
+      "abbreviation": "BRA",
+      "name": "Brazil nuts"
+    },
+    {
+      "id": "I015",
+      "abbreviation": "PIS",
+      "name": "pistachio nuts"
+    },
+    {
+      "id": "I016",
+      "abbreviation": "MAC",
+      "name": "macadamia nuts"
+    },
+    {
+      "id": "I017",
+      "abbreviation": "BEN",
+      "name": "Beech nut"
+    },
+    {
+      "id": "I018",
+      "abbreviation": "BUN",
+      "name": "Butternut"
+    },
+    {
+      "id": "I019",
+      "abbreviation": "CHN",
+      "name": "Chestnut"
+    },
+    {
+      "id": "I01A",
+      "abbreviation": "CHI",
+      "name": "Chinquapin"
+    },
+    {
+      "id": "I01B",
+      "abbreviation": "COC",
+      "name": "Coconut"
+    },
+    {
+      "id": "I01C",
+      "abbreviation": "GIN",
+      "name": "Ginko nut"
+    },
+    {
+      "id": "I01D",
+      "abbreviation": "HIN",
+      "name": "Hickory nut"
+    },
+    {
+      "id": "I01E",
+      "abbreviation": "LIN",
+      "name": "Lichee nut"
+    },
+    {
+      "id": "I01F",
+      "abbreviation": "PIN",
+      "name": "Pine nuts"
+    },
+    {
+      "id": "I020",
+      "abbreviation": "SHN",
+      "name": "Sheanut"
+    },
+    {
+      "id": "I021",
+      "abbreviation": "HEN",
+      "name": "Heartnut"
+    },
+    {
+      "id": "I022",
+      "abbreviation": "CEL",
+      "name": "Celery"
+    },
+    {
+      "id": "I023",
+      "abbreviation": "MUS",
+      "name": "Mustard"
+    },
+    {
+      "id": "I024",
+      "abbreviation": "SES",
+      "name": "Sesame seeds"
+    },
+    {
+      "id": "I025",
+      "abbreviation": "SUL",
+      "name": "Sulphur dioxide and sulphites"
+    },
+    {
+      "id": "I026",
+      "abbreviation": "LUP",
+      "name": "Lupin"
+    },
+    {
+      "id": "I027",
+      "abbreviation": "MOL",
+      "name": "Molluscs"
+    },
+    {
+      "id": "I028",
+      "abbreviation": "FCS",
+      "name": "Fish, crustaceans, shellfish"
+    }
+  ]
+}

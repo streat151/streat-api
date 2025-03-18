@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Container Schema",
+  "type": "object",
+  "properties": {
+    "container": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "children": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^P[0-9A-F]{3}$"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": ["id", "name"]
+            }
+          }
+        },
+        "required": ["name", "children"]
+      }
+    }
+  },
+  "required": ["container"]
+}

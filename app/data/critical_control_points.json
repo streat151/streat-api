@@ -1,0 +1,165 @@
+{
+  "critical_control_points": [
+    {
+      "id": "M001",
+      "name": "pH Level",
+      "description": "Acidity measurement (0-14 scale)",
+      "unit_type": "dimensionless",
+      "allowed_units": []
+    },
+    {
+      "id": "M002",
+      "name": "Water Activity",
+      "description": "Available water content (aw value 0-1)",
+      "unit_type": "dimensionless",
+      "allowed_units": []
+    },
+    {
+      "id": "M003",
+      "name": "Heating Time",
+      "description": "Minimum heat treatment duration",
+      "unit_type": "time",
+      "allowed_units": ["B00F", "B010"]
+    },
+    {
+      "id": "M004",
+      "name": "Core Temperature",
+      "description": "Minimum/maximum internal product temperature",
+      "unit_type": "temperature",
+      "allowed_units": ["B011", "B012"]
+    },
+    {
+      "id": "M005",
+      "name": "Cooling Rate",
+      "description": "Maximum cooling speed (°C/h)",
+      "unit_type": "temperature_rate",
+      "allowed_units": ["B011/B010"]
+    },
+    {
+      "id": "M006",
+      "name": "Storage Temperature",
+      "description": "Allowed temperature range during storage",
+      "unit_type": "temperature",
+      "allowed_units": ["B011", "B012"]
+    },
+    {
+      "id": "M007",
+      "name": "Shelf Life",
+      "description": "Maximum storage duration (ISO 8601 format)",
+      "unit_type": "date",
+      "format": "YYYY-MM-DD"
+    },
+    {
+      "id": "M008",
+      "name": "Preservation Method",
+      "description": "Applied preservation technique",
+      "allowed_values": ["Freezing", "Vacuum Sealing", "Salting", "Pasteurization"]
+    },
+    {
+      "id": "M009",
+      "name": "Pasteurization",
+      "description": "Time-temperature combination treatment",
+      "parameters": [
+        {"unit_type": "temperature", "allowed_units": ["B011"]},
+        {"unit_type": "time", "allowed_units": ["B00F"]}
+      ]
+    },
+    {
+      "id": "M00A",
+      "name": "Sterilization",
+      "description": "F0 Value or equivalent lethality",
+      "unit_type": "sterilization_units",
+      "allowed_units": ["F0_min"]
+    },
+    {
+      "id": "M00B",
+      "name": "Fermentation Time",
+      "description": "Duration of fermentation process",
+      "unit_type": "time",
+      "allowed_units": ["B010", "B00F"]
+    },
+    {
+      "id": "M00C",
+      "name": "Salt Content",
+      "description": "NaCl concentration in % or g/kg",
+      "unit_type": "concentration",
+      "allowed_units": ["B001", "B019"]
+    },
+    {
+      "id": "M00D",
+      "name": "Sugar Content",
+      "description": "Total sugar content in Brix or g/100g",
+      "unit_type": "concentration",
+      "allowed_units": ["BRIX", "B001"]
+    },
+    {
+      "id": "M00E",
+      "name": "Viscosity",
+      "description": "Flow resistance in mPa·s or empirical units",
+      "unit_type": "viscosity",
+      "allowed_units": ["mPa·s", "cP"]
+    },
+    {
+      "id": "M00F",
+      "name": "Particle Size",
+      "description": "Maximum particle size distribution",
+      "unit_type": "length",
+      "allowed_units": ["B00C", "B00D"]
+    },
+    {
+      "id": "M010",
+      "name": "Color Values",
+      "description": "Color measurement in CIELAB space",
+      "parameters": [
+        {"name": "L*", "range": "0-100"},
+        {"name": "a*", "range": "-128–127"},
+        {"name": "b*", "range": "-128–127"}
+      ]
+    },
+    {
+      "id": "M011",
+      "name": "Texture",
+      "description": "Mechanical properties analysis",
+      "allowed_values": ["Hardness (N)", "Elasticity (%)", "Breaking Strength"]
+    },
+    {
+      "id": "M012",
+      "name": "Weight",
+      "description": "Tolerance range for final product weight",
+      "unit_type": "weight",
+      "allowed_units": ["B001", "B005"]
+    },
+    {
+      "id": "M013",
+      "name": "Volume",
+      "description": "Permitted volume variations",
+      "unit_type": "volume",
+      "allowed_units": ["B006", "B007"]
+    },
+    {
+      "id": "M014",
+      "name": "Bulk Density",
+      "description": "Mass per unit volume (kg/m³)",
+      "unit_type": "density",
+      "allowed_units": ["kg/m³"]
+    },
+    {
+      "id": "M015",
+      "name": "Density",
+      "description": "Specific mass concentration",
+      "unit_type": "density",
+      "allowed_units": ["g/cm³", "kg/m³"]
+    }
+   {
+      "id": "M016",
+      "name": "Ambient Temperature",
+      "description": "Environmental temperature during processing/storage",
+      "unit_type": "temperature",
+      "allowed_units": ["B011", "B012"], // Celsius/Fahrenheit
+      "monitoring_guidelines": {
+        "frequency": "continuous",
+        "locations": ["storage_area", "production_line"]
+      }
+    }
+  ]
+}

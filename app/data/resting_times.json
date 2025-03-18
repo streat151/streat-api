@@ -1,0 +1,54 @@
+{
+  "resting_times": [
+    {
+      "id": "R001",
+      "name": "Dough Rest",
+      "comment": "Resting phase for dough after kneading"
+    },
+    {
+      "id": "R002",
+      "name": "Proofing",
+      "comment": "Resting time for shaped dough pieces before baking"
+    },
+    {
+      "id": "R003",
+      "name": "Thawing Time",
+      "comment": "Time for defrosting frozen foods"
+    },
+    {
+      "id": "R004",
+      "name": "Proofing",
+      "comment": "Fermentation process for yeast doughs"
+    },
+    {
+      "id": "R005",
+      "name": "Retarding",
+      "comment": "Slowed fermentation at low temperatures"
+    },
+    {
+      "id": "R006",
+      "name": "Sourdough Maturation",
+      "comment": "Maturation time for sourdough"
+    },
+    {
+      "id": "R007",
+      "name": "Resting Time",
+      "comment": "General waiting time in food processing"
+    },
+    {
+      "id": "R008",
+      "name": "Marinating Time",
+      "comment": "Time for marinades to infuse into foods"
+    },
+    {
+      "id": "R009",
+      "name": "Fermentation",
+      "comment": "Microbial transformation process in foods"
+    },
+    {
+      "id": "R00A",
+      "name": "Cooling",
+      "comment": "Process to reduce temperature after processing"
+    }
+  ]
+}

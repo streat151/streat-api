@@ -1,0 +1,83 @@
+{
+  "claims": [
+    {
+      "id": "J001",
+      "abbreviation": "LFAT",
+      "name": "Low fat",
+      "category": "nutrient_related"
+    },
+    {
+      "id": "J002",
+      "abbreviation": "LSUG",
+      "name": "Low sugar",
+      "category": "nutrient_related"
+    },
+    {
+      "id": "J003",
+      "abbreviation": "LCAL",
+      "name": "Low calorie",
+      "category": "nutrient_related"
+    },
+    {
+      "id": "J004",
+      "abbreviation": "FIBR",
+      "name": "Source of fiber",
+      "category": "nutrient_related"
+    },
+    {
+      "id": "J005",
+      "abbreviation": "PROT",
+      "name": "Source of protein",
+      "category": "nutrient_related"
+    },
+
+    {
+      "id": "J006",
+      "abbreviation": "GLUT",
+      "name": "Gluten-free",
+      "category": "dietary_form"
+    },
+    {
+      "id": "J007",
+      "abbreviation": "LACT",
+      "name": "Lactose-free",
+      "category": "dietary_form"
+    },
+    {
+      "id": "J008",
+      "abbreviation": "VGAN",
+      "name": "Vegan",
+      "category": "dietary_form"
+    },
+    {
+      "id": "J009",
+      "abbreviation": "VEGE",
+      "name": "Vegetarian",
+      "category": "dietary_form"
+    },
+    {
+      "id": "J00A",
+      "abbreviation": "RAWF",
+      "name": "Raw food",
+      "category": "dietary_form"
+    },
+    {
+      "id": "J00B",
+      "abbreviation": "KETO",
+      "name": "Keto-friendly",
+      "category": "dietary_form"
+    },
+    {
+      "id": "J00C",
+      "abbreviation": "PALE",
+      "name": "Paleo-suitable",
+      "category": "dietary_form"
+    },
+    {
+      "id": "J00D",
+      "abbreviation": "LCAR",
+      "name": "Low-carb",
+      "category": "dietary_form"
+    }
+  ]
+}

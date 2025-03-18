@@ -1,0 +1,99 @@
+{
+  "categories": [
+    // Hauptkategorien (Main Categories)
+    {
+      "id": "K001",
+      "name": "appetizers",
+      "subcategories": [
+        {"id": "K010", "name": "snacks"},
+        {"id": "K011", "name": "soups"},
+        {"id": "K012", "name": "salads"},
+        {"id": "K013", "name": "finger_food"},
+        {"id": "K014", "name": "dips_spreads"}
+      ]
+    },
+    {
+      "id": "K002",
+      "name": "main_dishes",
+      "subcategories": [
+        {"id": "K020", "name": "meat_dishes"},
+        {"id": "K021", "name": "fish_dishes"},
+        {"id": "K022", "name": "vegetarian_dishes"},
+        {"id": "K023", "name": "vegan_dishes"},
+        {"id": "K024", "name": "pasta_dishes"},
+        {"id": "K025", "name": "casseroles_gratins"},
+        {"id": "K026", "name": "stews_soups"}
+      ]
+    },
+    {
+      "id": "K003",
+      "name": "side_dishes",
+      "subcategories": [
+        {"id": "K030", "name": "potato_dishes"},
+        {"id": "K031", "name": "rice_dishes"},
+        {"id": "K032", "name": "noodle_dishes"},
+        {"id": "K033", "name": "vegetable_sides"}
+      ]
+    },
+    {
+      "id": "K004",
+      "name": "desserts",
+      "subcategories": [
+        {"id": "K040", "name": "cakes_pies"},
+        {"id": "K041", "name": "cookies_biscuits"},
+        {"id": "K042", "name": "puddings_creams"},
+        {"id": "K043", "name": "ice_creations"},
+        {"id": "K044", "name": "fruit_desserts"}
+      ]
+    },
+    {
+      "id": "K005",
+      "name": "beverages",
+      "subcategories": [
+        {"id": "K050", "name": "smoothies"},
+        {"id": "K051", "name": "cocktails"},
+        {"id": "K052", "name": "juices_soft_drinks"}
+      ]
+    },
+    {
+      "id": "K006",
+      "name": "preparation_methods",
+      "subcategories": [
+        {"id": "K060", "name": "grilled_dishes"},
+        {"id": "K061", "name": "oven_dishes"},
+        {"id": "K062", "name": "pan_dishes"},
+        {"id": "K063", "name": "slow_cooker"}
+      ]
+    },
+    {
+      "id": "K007",
+      "name": "occasions",
+      "subcategories": [
+        {"id": "K070", "name": "holiday_dishes"},
+        {"id": "K071", "name": "party_recipes"},
+        {"id": "K072", "name": "kids_recipes"},
+        {"id": "K073", "name": "breakfast_ideas"}
+      ]
+    },
+    {
+      "id": "K008",
+      "name": "seasonal",
+      "subcategories": [
+        {"id": "K080", "name": "spring_recipes"},
+        {"id": "K081", "name": "summer_recipes"},
+        {"id": "K082", "name": "autumn_recipes"},
+        {"id": "K083", "name": "winter_recipes"}
+      ]
+    },
+    {
+      "id": "K009",
+      "name": "international",
+      "subcategories": [
+        {"id": "K090", "name": "italian"},
+        {"id": "K091", "name": "asian"},
+        {"id": "K092", "name": "mediterranean"},
+        {"id": "K093", "name": "american"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "actions": [
+    {
+      "id": "F001",
+      "name": "peel",
+      "parameters": ["ingredient", "tool"]
+    },
+    {
+      "id": "F002",
+      "name": "dice",
+      "parameters": ["ingredient", "size"]
+    },
+    {
+      "id": "F003",
+      "name": "slice",
+      "parameters": ["ingredient", "thickness"]
+    },
+    {
+      "id": "F004",
+      "name": "mince",
+      "parameters": ["ingredient"]
+    },
+    {
+      "id": "F005",
+      "name": "grate",
+      "parameters": ["ingredient", "tool"]
+    },
+    {
+      "id": "F006",
+      "name": "juice",
+      "parameters": ["ingredient", "tool"]
+    },
+    {
+      "id": "F007",
+      "name": "toast",
+      "parameters": ["ingredient", "time", "temperature"]
+    },
+    {
+      "id": "F008",
+      "name": "sauté",
+      "parameters": ["ingredient", "time", "temperature"]
+    },
+    {
+      "id": "F009",
+      "name": "sear",
+      "parameters": ["ingredient", "time", "temperature"]
+    },
+    {
+      "id": "F00A",
+      "name": "simmer",
+      "parameters": ["ingredient", "time", "temperature"]
+    },
+    {
+      "id": "F00B",
+      "name": "braise",
+      "parameters": ["ingredient", "time", "temperature", "liquid"]
+    },
+    {
+      "id": "F00C",
+      "name": "deep_fry",
+      "parameters": ["ingredient", "time", "temperature"]
+    },
+    {
+      "id": "F00D",
+      "name": "blanch",
+      "parameters": ["ingredient", "time", "temperature"]
+    },
+    {
+      "id": "F00E",
+      "name": "poach",
+      "parameters": ["ingredient", "time", "temperature", "liquid"]
+    },
+    {
+      "id": "F00F",
+      "name": "steam",
+      "parameters": ["ingredient", "time", "temperature"]
+    },
+    {
+      "id": "F010",
+      "name": "smoke",
+      "parameters": ["ingredient", "time", "temperature", "wood_type"]
+    },
+    {
+      "id": "F011",
+      "name": "bake",
+      "parameters": ["ingredient", "time", "temperature"]
+    },
+    {
+      "id": "F012",
+      "name": "roast",
+      "parameters": ["ingredient", "time", "temperature", "basting"]
+    },
+    {
+      "id": "F013",
+      "name": "broil",
+      "parameters": ["ingredient", "time", "temperature"]
+    },
+    {
+      "id": "F014",
+      "name": "grill",
+      "parameters": ["ingredient", "time", "temperature", "grill_type"]
+    },
+    {
+      "id": "F015",
+      "name": "whisk",
+      "parameters": ["ingredient", "time", "tool"]
+    },
+    {
+      "id": "F016",
+      "name": "fold",
+      "parameters": ["ingredient", "time"]
+    },
+    {
+      "id": "F017",
+      "name": "knead",
+      "parameters": ["ingredient", "time", "tool"]
+    },
+    {
+      "id": "F018",
+      "name": "emulsify",
+      "parameters": ["ingredient", "tool"]
+    },
+    {
+      "id": "F019",
+      "name": "garnish",
+      "parameters": ["ingredient"]
+    },
+    {
+      "id": "F01A",
+      "name": "plate",
+      "parameters": ["ingredient", "presentation_style"]
+    },
+    {
+      "id": "F01B",
+      "name": "chill",
+      "parameters": ["ingredient", "time", "temperature"]
+    },
+    {
+      "id": "F01C",
+      "name": "freeze",
+      "parameters": ["ingredient", "time"]
+    },
+    {
+      "id": "F01D",
+      "name": "sous_vide",
+      "parameters": ["ingredient", "time", "temperature"]
+    },
+    {
+      "id": "F01E",
+      "name": "ferment",
+      "parameters": ["ingredient", "time", "temperature"]
+    },
+    {
+      "id": "F01F",
+      "name": "cure",
+      "parameters": ["ingredient", "time", "curing_agent"]
+    },
+    {
+      "id": "F020",
+      "name": "marinate",
+      "parameters": ["ingredient", "time", "marinade_sauce"]
+    },
+    {
+      "id": "F021",
+      "name": "caramelize",
+      "parameters": ["ingredient", "time", "temperature"]
+    },
+    {
+      "id": "F022",
+      "name": "flambé",
+      "parameters": ["ingredient", "time", "alcohol"]
+    },
+    {
+      "id": "F023",
+      "name": "reduce",
+      "parameters": ["ingredient", "time", "heat_level"]
+    },
+    {
+      "id": "F024",
+      "name": "glaze",
+      "parameters": ["ingredient", "glaze_ingredient", "time"]
+    },
+    {
+      "id": "F025",
+      "name": "deglaze",
+      "parameters": ["pan", "liquid", "time"]
+    },
+    {
+      "id": "F026",
+      "name": "carve",
+      "parameters": ["ingredient", "tool"]
+    },
+    {
+      "id": "F027",
+      "name": "trim",
+      "parameters": ["ingredient", "tool"]
+    }
+  ]
+}

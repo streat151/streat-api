@@ -1,0 +1,144 @@
+{
+  "tools": [
+    {
+      "id": "E1A2",
+      "name": "chefs_knife",
+      "comment": "A large, versatile knife (typically 8–10 inches) for chopping, slicing, etc."
+    },
+    {
+      "id": "E2B3",
+      "name": "paring_knife",
+      "comment": "A small knife (usually 3–4 inches) for detailed work like peeling or trimming."
+    },
+    {
+      "id": "E3C4",
+      "name": "peeler",
+      "comment": "A handheld tool for removing the outer layer of fruits and vegetables."
+    },
+    {
+      "id": "E4D5",
+      "name": "grater",
+      "comment": "Used to shred or grate foods like cheese or vegetables into fine pieces."
+    },
+    {
+      "id": "E5E6",
+      "name": "blender",
+      "comment": "An electric appliance to purée, mix, or emulsify food and other substances."
+    },
+    {
+      "id": "E6F7",
+      "name": "whisk",
+      "comment": "A utensil made of wire loops used to blend ingredients or incorporate air."
+    },
+    {
+      "id": "E7A8",
+      "name": "mixing_bowl",
+      "comment": "A bowl in various sizes for combining and mixing ingredients."
+    },
+    {
+      "id": "E8B9",
+      "name": "skillet",
+      "comment": "A flat-bottomed pan (often with sloped sides) for frying, searing, and sautéing."
+    },
+    {
+      "id": "E9C0",
+      "name": "saucepan",
+      "comment": "A deep pan with a handle, used for making sauces, soups, or boiling."
+    },
+    {
+      "id": "E0D1",
+      "name": "baking_tray",
+      "comment": "A flat metal sheet or tray for baking cookies, pastries, or roasting vegetables."
+    },
+    {
+      "id": "E1E2",
+      "name": "rolling_pin",
+      "comment": "A cylindrical tool used to roll out dough evenly."
+    },
+    {
+      "id": "E2F3",
+      "name": "measuring_spoons",
+      "comment": "Spoons of various sizes for measuring small quantities of ingredients."
+    },
+    {
+      "id": "E3A4",
+      "name": "mortar_pestle",
+      "comment": "A bowl (mortar) and a heavy tool (pestle) to grind or crush ingredients."
+    },
+    {
+      "id": "E4B5",
+      "name": "stand_mixer",
+      "comment": "An electric mixer on a stand with various attachments for kneading or whisking."
+    },
+    {
+      "id": "E5C6",
+      "name": "food_processor",
+      "comment": "An appliance with interchangeable blades for chopping, mixing, or puréeing."
+    },
+    {
+      "id": "EA0A",
+      "name": "kitchen_thermometer",
+      "comment": "A device for measuring the internal temperature of foods while cooking."
+    },
+    {
+      "id": "EA0B",
+      "name": "parchment_paper",
+      "comment": "Non-stick, heat-resistant paper for lining baking sheets or pans."
+    },
+    {
+      "id": "EA0C",
+      "name": "plastic_wrap",
+      "comment": "Cling film used to cover or wrap food to keep it fresh."
+    },
+    {
+      "id": "EA0D",
+      "name": "aluminum_foil",
+      "comment": "Thin metal foil used for covering, wrapping, or lining pans."
+    },
+    {
+      "id": "EA0E",
+      "name": "paper_bag",
+      "comment": "A simple bag made of paper, often used for storing or carrying produce."
+    },
+    {
+      "id": "EA0F",
+      "name": "plastic_bag",
+      "comment": "Disposable or sealable bag for storing, marinating, or freezing foods."
+    },
+    {
+      "id": "EA10",
+      "name": "wax_paper",
+      "comment": "Paper coated with wax, often used for wrapping or layering sticky foods."
+    },
+    {
+      "id": "EA11",
+      "name": "silicone_baking_mat",
+      "comment": "A reusable non-stick mat placed on baking sheets."
+    },
+    {
+      "id": "EA12",
+      "name": "kitchen_twine",
+      "comment": "Food-grade string for tying roasts or bundling herbs."
+    },
+    {
+      "id": "EA13",
+      "name": "coffee_filter",
+      "comment": "Paper filter for brewing coffee or for straining small particles."
+    },
+    {
+      "id": "EA14",
+      "name": "cheesecloth",
+      "comment": "Loose-woven cloth used for straining liquids or bundling spices."
+    },
+    {
+      "id": "EA15",
+      "name": "piping_bag",
+      "comment": "A cone-shaped bag for piping doughs, creams, or fillings."
+    },
+    {
+      "id": "EA16",
+      "name": "cupcake_liners",
+      "comment": "Paper or foil cups placed in a muffin tin to hold batter."
+    }
+  ]
+}

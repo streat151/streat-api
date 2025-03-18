@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Claims Schema",
+  "type": "object",
+  "properties": {
+    "claims": {
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {"type": "string", "pattern": "^J[0-9A-F]{3}$"},
+          "abbreviation": {"type": "string", "pattern": "^[A-Z]{4}$"},
+          "name": {"type": "string"},
+          "category": {
+            "type": "string",
+            "enum": ["nutrient_related", "dietary_form"]
+          }
+        },
+        "required": ["id", "abbreviation", "name", "category"]
+      }
+    }
+  },
+  "required": ["claims"]
+}

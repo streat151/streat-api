@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Actions Schema",
+  "type": "object",
+  "properties": {
+    "actions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {"type": "string", "pattern": "^F[0-9A-F]{3}$"},
+          "name": {"type": "string"},
+          "parameters": {
+            "type": "array",
+            "items": {"type": "string"}
+          }
+        },
+        "required": ["id", "name", "parameters"]
+      }
+    }
+  },
+  "required": ["actions"]
+}

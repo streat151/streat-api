@@ -1,0 +1,238 @@
+{
+  "nutritions": [
+    {
+      "id": "H001",
+      "abbreviation": "ENE",
+      "name": "energy",
+      "unit_id": "B02B"
+    },
+    {
+      "id": "H002",
+      "abbreviation": "FAT",
+      "name": "fat",
+      "unit_id": "B001" 
+    },
+    {
+      "id": "H003",
+      "abbreviation": "SAT",
+      "name": "saturates",
+      "unit_id": "B001"
+    },
+    {
+      "id": "H004",
+      "abbreviation": "MOU",
+      "name": "mono-unsaturates",
+      "unit_id": "B001"  
+    },
+    {
+      "id": "H005",
+      "abbreviation": "POU",
+      "name": "polyunsaturates",
+      "unit_id": "B001"  
+    },
+    {
+      "id": "H006",
+      "abbreviation": "CAR",
+      "name": "carbohydrate",
+      "unit_id": "B001"  
+    },
+    {
+      "id": "H007",
+      "abbreviation": "SUG",
+      "name": "sugars",
+      "unit_id": "B001"  
+    },
+    {
+      "id": "H008",
+      "abbreviation": "POL",
+      "name": "polyols",
+      "unit_id": "B001"  
+    },
+    {
+      "id": "H009",
+      "abbreviation": "STA",
+      "name": "starch",
+      "unit_id": "B001"  
+    },
+    {
+      "id": "H00A",
+      "abbreviation": "FIB",
+      "name": "fibre",
+      "unit_id": "B001"  
+    },
+    {
+      "id": "H00B",
+      "abbreviation": "PRO",
+      "name": "protein",
+      "unit_id": "B001"  
+    },
+    {
+      "id": "H00C",
+      "abbreviation": "SAL",
+      "name": "salt",
+      "unit_id": "B001"  
+    },
+    {
+      "id": "H00D",
+      "abbreviation": "VIA",
+      "name": "Vitamin A",
+      "unit_id": "B017"  
+    },
+    {
+      "id": "H00E",
+      "abbreviation": "VID",
+      "name": "Vitamin D",
+      "unit_id": "B017"  
+    },
+    {
+      "id": "H00F",
+      "abbreviation": "VIE",
+      "name": "Vitamin E",
+      "unit_id": "B003"  
+    },
+    {
+      "id": "H010",
+      "abbreviation": "VIK",
+      "name": "Vitamin K",
+      "unit_id": "B017"  
+    },
+    {
+      "id": "H011",
+      "abbreviation": "VIC",
+      "name": "Vitamin C",
+      "unit_id": "B003"  
+    },
+    {
+      "id": "H012",
+      "abbreviation": "VIT",
+      "name": "Thiamin",
+      "unit_id": "B003"  
+    },
+    {
+      "id": "H013",
+      "abbreviation": "VIR",
+      "name": "Riboflavin",
+      "unit_id": "B003"  
+    },
+    {
+      "id": "H014",
+      "abbreviation": "VIN",
+      "name": "Niacin",
+      "unit_id": "B003"  
+    },
+    {
+      "id": "H015",
+      "abbreviation": "VB6",
+      "name": "Vitamin B6",
+      "unit_id": "B003"  
+    },
+    {
+      "id": "H016",
+      "abbreviation": "VFA",
+      "name": "Folic acid",
+      "unit_id": "B017"  
+    },
+    {
+      "id": "H017",
+      "abbreviation": "VB1",
+      "name": "Vitamin B12",
+      "unit_id": "B017"  
+    },
+    {
+      "id": "H018",
+      "abbreviation": "VBI",
+      "name": "Biotin",
+      "unit_id": "B017"  
+    },
+    {
+      "id": "H019",
+      "abbreviation": "VPA",
+      "name": "Pantothenic acid",
+      "unit_id": "B003"  
+    },
+    {
+      "id": "H01A",
+      "abbreviation": "POT",
+      "name": "Potassium",
+      "unit_id": "B003"  
+    },
+    {
+      "id": "H01B",
+      "abbreviation": "CHL",
+      "name": "Chloride",
+      "unit_id": "B003"  
+    },
+    {
+      "id": "H01C",
+      "abbreviation": "CAL",
+      "name": "Calcium",
+      "unit_id": "B003"  
+    },
+    {
+      "id": "H01D",
+      "abbreviation": "PHO",
+      "name": "Phosphorus",
+      "unit_id": "B003"  
+    },
+    {
+      "id": "H01E",
+      "abbreviation": "MAG",
+      "name": "Magnesium",
+      "unit_id": "B003"  
+    },
+    {
+      "id": "H01F",
+      "abbreviation": "IRO",
+      "name": "Iron",
+      "unit_id": "B003"  
+    },
+    {
+      "id": "H020",
+      "abbreviation": "ZIN",
+      "name": "Zinc",
+      "unit_id": "B003"  
+    },
+    {
+      "id": "H021",
+      "abbreviation": "COP",
+      "name": "Copper",
+      "unit_id": "B003"  
+    },
+    {
+      "id": "H022",
+      "abbreviation": "MAN",
+      "name": "Manganese",
+      "unit_id": "B003"  
+    },
+    {
+      "id": "H023",
+      "abbreviation": "FLU",
+      "name": "Fluoride",
+      "unit_id": "B003"  
+    },
+    {
+      "id": "H024",
+      "abbreviation": "SEL",
+      "name": "Selenium",
+      "unit_id": "B017"  
+    },
+    {
+      "id": "H025",
+      "abbreviation": "CHR",
+      "name": "Chromium",
+      "unit_id": "B017"  
+    },
+    {
+      "id": "H026",
+      "abbreviation": "MOY",
+      "name": "Molybdenum",
+      "unit_id": "B017"  
+    },
+    {
+      "id": "H027",
+      "abbreviation": "IOD",
+      "name": "Iodine",
+      "unit_id": "B017"  
+    }
+  ]
+}

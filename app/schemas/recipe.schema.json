@@ -1,0 +1,193 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Recipe Schema",
+  "type": "object",
+  "definitions": {
+    "timed_quantity": {
+      "type": "object",
+      "properties": {
+        "value": {"type": "number", "minimum": 0},
+        "unit_id": {"type": "string", "pattern": "^B[0-9A-F]{3}$"}
+      },
+      "required": ["value", "unit_id"]
+    },
+    "component_reference": {
+      "type": "object",
+      "properties": {
+        "internal_id": {"type": "string", "pattern": "^C[0-9A-F]{3}$"},
+        "quantity": {"$ref": "#/definitions/timed_quantity"}
+      },
+      "required": ["internal_id", "quantity"]
+    }
+  },
+  "properties": {
+    "format_version": {
+      "type": "object",
+      "properties": {
+        "major": {"type": "integer", "minimum": 1},
+        "minor": {"type": "integer", "minimum": 0},
+        "compatibility_hash": {"type": "string", "pattern": "^[A-F0-9]{4}-[A-F0-9]{4}$"}
+      },
+      "required": ["major", "minor"]
+    },
+    "recipe_metadata": {
+      "type": "object",
+      "properties": {
+        "recipe_code": {
+          "type": "string", 
+          "pattern": "^[1-9A-F]{7}-[1-9A-F]{5}$"
+        },
+        "base_idea_from": {"type": "string", "format": "uri"},
+        "resting_times": {
+          "type": "array",
+          "items": {
+          "type": "object",
+          "properties": {
+            "value": {"type": "number"},
+            "unit_id": {"type": "string", "pattern": "^B[0-9A-F]{3}$"},
+            "resting_definition_id": {"type": "string", "pattern": "^R[0-9A-F]{3}$"}
+          },
+          "required": ["value", "unit_id", "resting_definition_id"]
+          }
+        }
+      },
+      "required": ["recipe_code"]
+    },
+    "ingredients": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "properties": {
+              "type": {"const": "raw_material"},
+              "ingredient_id": {"type": "string", "pattern": "^[A-F0-9]{7}$"},
+              "internal_id": {"type": "string", "pattern": "^C[0-9A-F]{3}$"},
+              "quantity": {"$ref": "#/definitions/timed_quantity"}
+            },
+            "required": ["type", "ingredient_id", "quantity"]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {"const": "sub_recipe"},
+              "recipe_code": {"type": "string", "pattern": "^[1-9A-F]{7}-[1-9A-F]{5}$"},
+              "internal_id": {"type": "string", "pattern": "^C[0-9A-F]{3}$"},
+              "quantity": {"$ref": "#/definitions/timed_quantity"}
+            },
+            "required": ["type", "recipe_code", "quantity"]
+          }
+        ]
+      }
+    },
+    "instructions": {
+      "type": "object",
+      "properties": {
+        "steps": {
+		  "type": "array",
+		  "items": {
+			"type": "object",
+			"properties": {
+			  "step_id": {"type": "string", "pattern": "^S[0-9A-F]{3}$"},
+			  "components": {
+				"type": "array",
+				"items": {"$ref": "#/definitions/component_reference"}
+			  },
+			  "ccp_checkpoints": {
+				"type": "array",
+				"items": {"type": "string", "pattern": "^M[0-9A-F]{3}$"}
+			  }
+			},
+			"required": ["step_id"]
+		  }
+		}
+      },
+      "required": ["steps"]
+    },
+    "visual_references": {
+      "type": "object",
+      "properties": {
+        "system": {"type": "string", "pattern": "^urn:recipeimg:v[1-9]$"},
+        "images": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "urn": {"type": "string", "pattern": "^urn:recipeimg:sha3-[a-f0-9]{64}$"},
+              "license": {"type": "string"}
+            },
+            "required": ["urn"]
+          }
+        }
+      }
+    },
+    "nutrition": {
+      "type": "object",
+      "properties": {
+        "base_units": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["per_serving", "per_100g", "per_100ml"]
+          }
+        },
+        "values": {
+		  "type": "array",
+		  "items": {
+			"type": "object",
+			"properties": {
+			  "nutrition_id": {"type": "string", "pattern": "^H[0-9A-F]{3}$"},
+			  "per_serving": {"type": "number"},
+			  "per_100g": {"type": "number"},
+			  "per_100ml": {"type": "number"},
+			  "unit_id": {"type": "string", "pattern": "^B[0-9A-F]{3}$"}
+			},
+			"anyOf": [
+			  {"required": ["per_serving"]},
+			  {"required": ["per_100g"]},
+			  {"required": ["per_100ml"]}
+			],
+			"required": ["nutrition_id", "unit_id"]
+		  }
+        }
+      },
+      "required": ["values"]
+    },
+    "serving_info": {
+	  "type": "object",
+	  "properties": {
+		"count": {"type": "integer", "minimum": 1},
+		"container": {
+		  "type": "object",
+		  "properties": {
+			"id": {"type": "string", "pattern": "^P[0-9A-F]{3}$"}
+		  },
+		  "required": ["id"]
+		}
+	  },
+	  "required": ["count"]
+	},
+    "validation": {
+      "type": "object",
+      "properties": {
+        "digital_signature": {
+          "type": "object",
+          "properties": {
+            "algorithm": {"type": "string", "enum": ["ED25519", "ECDSA", "RSA"]},
+            "public_key": {"type": "string"},
+            "signature": {"type": "string"}
+          },
+          "required": ["algorithm", "signature"]
+        }
+      }
+    }
+  },
+  "required": [
+    "format_version",
+    "recipe_metadata",
+    "ingredients",
+    "instructions",
+    "nutrition",
+    "serving_info"
+  ]
+}

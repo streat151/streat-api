@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Resting Times Schema",
+  "type": "object",
+  "properties": {
+    "resting_times": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^R[0-9A-F]{3}$"
+          },
+          "name": {
+            "type": "string"
+          },
+          "comment": {
+            "type": "string"
+          }
+        },
+        "required": ["id", "name", "comment"]
+      }
+    }
+  },
+  "required": ["resting_times"]
+}

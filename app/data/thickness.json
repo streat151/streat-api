@@ -1,0 +1,80 @@
+{
+  "thickness_terms": [
+    {
+      "id": "G001",
+      "name": "fine_dice",
+      "comment": "Cut into small cubes (approx. 1x1 cm)."
+    },
+    {
+      "id": "G002",
+      "name": "medium_dice",
+      "comment": "Cut into medium cubes (approx. 2x2 cm)."
+    },
+    {
+      "id": "G003",
+      "name": "coarse_dice",
+      "comment": "Cut into large cubes (approx. 3x3 cm)."
+    },
+    {
+      "id": "G004",
+      "name": "julienne",
+      "comment": "Cut into thin matchstick strips (approx. 3 mm thick)."
+    },
+    {
+      "id": "G005",
+      "name": "batonnet",
+      "comment": "Cut into thicker strips (approx. 6 mm thick)."
+    },
+    {
+      "id": "G006",
+      "name": "brunoise",
+      "comment": "Cut into very small cubes (approx. 2 mm)."
+    },
+    {
+      "id": "G007",
+      "name": "thin_slice",
+      "comment": "Slices approx. 1–2 mm thick."
+    },
+    {
+      "id": "G008",
+      "name": "thick_slice",
+      "comment": "Slices approx. 5–10 mm thick."
+    },
+    {
+      "id": "G009",
+      "name": "chiffonade",
+      "comment": "Thinly shredded leaves or herbs."
+    },
+    {
+      "id": "G00A",
+      "name": "mince",
+      "comment": "Finely chopped into very small pieces."
+    },
+
+    {
+      "id": "G00B",
+      "name": "paysanne",
+      "comment": "Cut into thin, flat shapes (e.g., 1/2 cm squares)."
+    },
+    {
+      "id": "G00C",
+      "name": "rondelle",
+      "comment": "Round, coin-shaped slices, often used for carrots."
+    },
+    {
+      "id": "G00D",
+      "name": "bias_cut",
+      "comment": "Sliced on a diagonal (45°) for elongated pieces."
+    },
+    {
+      "id": "G00E",
+      "name": "lozenge",
+      "comment": "Diamond-shaped cuts used frequently for garnishes."
+    },
+    {
+      "id": "G00F",
+      "name": "tourné",
+      "comment": "Seven-sided, football-shaped cut often used for potatoes."
+    }
+  ]
+}
